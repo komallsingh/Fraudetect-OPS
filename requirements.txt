@@ -1,0 +1,16 @@
+
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+mlflow>=3.0,<4
+
+fastapi
+uvicorn[standard]
+pydantic
+
+pytest
+httpx

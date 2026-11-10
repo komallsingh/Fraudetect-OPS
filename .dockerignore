@@ -1,0 +1,46 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Git
+.git/
+.github/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Local model artifacts
+models/
+*.joblib
+*.pkl
+
+# MLflow local storage
+mlflow.db
+mlartifacts/
+
+# Reports and notebooks
+reports/
+notebooks/
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
